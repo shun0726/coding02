@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sawarabi Mincho";
+}
+
+.txtl {
+    font-size: 24px;
+}
+
+.txtm {
+    font-size: 16px;
+}
+
+.number {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 74px;
+    background-color: #5A442A;
+    color: #fff;
+}
+
+header h1 {
+    padding-top: 17px;
+    padding-left: 15px;
+}
+
+.main-image {
+    background-image: url(img/main_visual@2x.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.about {
+    background-color: #FAF5ED;
+    padding: 40px 0;
+}
+
+.flexbox {
+    display: flex;
+    margin: 30px 0;
+}
+
+.flexbox img {
+    width: 600px;
+    
+}
+
+.about-right {
+    padding: 0 20px;
+}
+
+.about-right p {
+    line-height: 48px;
+}
+
+.next p {
+    text-align: center;
+}
+
+footer {
+    background-color: #5A442A;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    color: #fff;
+}
